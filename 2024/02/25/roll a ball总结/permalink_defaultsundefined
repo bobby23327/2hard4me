@@ -130,9 +130,44 @@
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-list">
+
+    <a href="/list/" rel="section"><i class="fa fa-list fa-fw"></i>list</a>
+
+  </li>
+        <li class="menu-item menu-item-csdiy">
+
+    <a href="/csdiy/" rel="section"><i class="fa fa-book fa-fw"></i>csdiy</a>
+
+  </li>
+        <li class="menu-item menu-item-unity">
+
+    <a href="/Unity/" rel="section"><i class="fa fa-wheelchair fa-fw"></i>Unity</a>
+
+  </li>
         <li class="menu-item menu-item-schedule">
 
     <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
+
+  </li>
+        <li class="menu-item menu-item-anotherworld">
+
+    <a href="/AnotherWorld/" rel="section"><i class="fa fa-cubes fa-fw"></i>AnotherWorld</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -192,7 +227,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Bobby">
-      <meta itemprop="description" content="大神浇浇">
+      <meta itemprop="description" content="时间太少">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -341,7 +376,12 @@
   </div>
 
   <aside class="sidebar">
-    <div class="sidebar-inner">
+    <div class="sidebar-inner"> 
+    <!--网易云插件-->
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 
+    height=450 src="//music.163.com/outchain/player?type=0&id=9373494033&auto=1&height=430"></iframe>
+      
+    </iframe>
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -361,7 +401,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Bobby</p>
-  <div class="site-description" itemprop="description">大神浇浇</div>
+  <div class="site-description" itemprop="description">时间太少</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
