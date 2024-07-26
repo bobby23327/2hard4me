@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"2hard4me.site","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"flat"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="目录 roll a ball 项目总结 官方文档快捷搜索 Update、LateUpdate 和 FixedUpdate 三种更新函数 Update 函数 在每一帧中被调用，调用频率与帧率一致   LateUpdate 函数 在所有 Update 函数执行完毕后被调用   FixedUpdate 函数 在固定时间间隔内被调用        roll a ball 项目总结官方文档快捷搜索在代码区，">
+  <meta name="description" content="计算机专业入门指南!(0)☝🤓2024.7.25写这个的时候我已经把markdown的基本语法忘光了,我还是看我之前的博客写的()  TODO:   填充文字内容  链接到图库      新增 portal  目录 计算机专业入门指南!(0)☝🤓 我还是看我之前的博客写的() 目录 为什么要学计算机? 计算机有什么用? 🤗如何入门 算法竞赛入门     传送门 -Crash Course C">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Unity笔记-1：三种update">
-<meta property="og:url" content="http://2hard4me.site/2024/02/25/roll%20a%20ball%E6%80%BB%E7%BB%93/permalink_defaultsundefined">
+<meta property="og:title" content="2Hard4me!">
+<meta property="og:url" content="http://2hard4me.site/2024/07/26/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/permalink_defaultsundefined">
 <meta property="og:site_name" content="2Hard4me!">
-<meta property="og:description" content="目录 roll a ball 项目总结 官方文档快捷搜索 Update、LateUpdate 和 FixedUpdate 三种更新函数 Update 函数 在每一帧中被调用，调用频率与帧率一致   LateUpdate 函数 在所有 Update 函数执行完毕后被调用   FixedUpdate 函数 在固定时间间隔内被调用        roll a ball 项目总结官方文档快捷搜索在代码区，">
+<meta property="og:description" content="计算机专业入门指南!(0)☝🤓2024.7.25写这个的时候我已经把markdown的基本语法忘光了,我还是看我之前的博客写的()  TODO:   填充文字内容  链接到图库      新增 portal  目录 计算机专业入门指南!(0)☝🤓 我还是看我之前的博客写的() 目录 为什么要学计算机? 计算机有什么用? 🤗如何入门 算法竞赛入门     传送门 -Crash Course C">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-02-25T11:20:57.000Z">
-<meta property="article:modified_time" content="2024-02-29T12:49:18.943Z">
+<meta property="article:published_time" content="2024-07-26T11:26:48.268Z">
+<meta property="article:modified_time" content="2024-07-26T11:20:31.407Z">
 <meta property="article:author" content="Bobby">
-<meta property="article:tag" content="archives">
+<meta property="article:tag" content="csdiy,笔记,coding">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://2hard4me.site/2024/02/25/roll%20a%20ball%E6%80%BB%E7%BB%93/permalink_defaultsundefined">
+<link rel="canonical" href="http://2hard4me.site/2024/07/26/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/permalink_defaultsundefined">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>Unity笔记-1：三种update | 2Hard4me!</title>
+  <title> | 2Hard4me!</title>
   
 
 
@@ -222,7 +222,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://2hard4me.site/2024/02/25/roll%20a%20ball%E6%80%BB%E7%BB%93/permalink_defaultsundefined">
+    <link itemprop="mainEntityOfPage" href="http://2hard4me.site/2024/07/26/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/permalink_defaultsundefined">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -235,7 +235,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Unity笔记-1：三种update
+          
         </h1>
 
         <div class="post-meta">
@@ -244,16 +244,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2024-02-25 19:20:57" itemprop="dateCreated datePublished" datetime="2024-02-25T19:20:57+08:00">2024-02-25</time>
+              <time title="创建时间：2024-07-26 19:26:48 / 修改时间：19:20:31" itemprop="dateCreated datePublished" datetime="2024-07-26T19:26:48+08:00">2024-07-26</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-02-29 20:49:18" itemprop="dateModified" datetime="2024-02-29T20:49:18+08:00">2024-02-29</time>
-              </span>
 
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
@@ -273,42 +267,50 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
-<li><a href="#roll-a-ball%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93">roll a ball 项目总结</a><ul>
-<li><a href="#%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E5%BF%AB%E6%8D%B7%E6%90%9C%E7%B4%A2">官方文档快捷搜索</a></li>
-<li><a href="#updatelateupdate%E5%92%8Cfixedupdate-%E4%B8%89%E7%A7%8D%E6%9B%B4%E6%96%B0%E5%87%BD%E6%95%B0">Update、LateUpdate 和 FixedUpdate 三种更新函数</a><ul>
-<li><a href="#update%E5%87%BD%E6%95%B0">Update 函数</a><ul>
-<li><a href="#%E5%9C%A8%E6%AF%8F%E4%B8%80%E5%B8%A7%E4%B8%AD%E8%A2%AB%E8%B0%83%E7%94%A8%E8%B0%83%E7%94%A8%E9%A2%91%E7%8E%87%E4%B8%8E%E5%B8%A7%E7%8E%87%E4%B8%80%E8%87%B4">在每一帧中被调用，<strong>调用频率与帧率一致</strong></a></li>
+        <h1 id="计算机专业入门指南-0-☝🤓"><a href="#计算机专业入门指南-0-☝🤓" class="headerlink" title="计算机专业入门指南!(0)☝🤓"></a>计算机专业入门指南!(0)☝🤓</h1><h2 id="2024-7-25写这个的时候我已经把markdown的基本语法忘光了-我还是看我之前的博客写的"><a href="#2024-7-25写这个的时候我已经把markdown的基本语法忘光了-我还是看我之前的博客写的" class="headerlink" title="2024.7.25写这个的时候我已经把markdown的基本语法忘光了,我还是看我之前的博客写的()  "></a>2024.7.25<br>写这个的时候我已经把markdown的基本语法忘光了,<br>我还是看我之前的博客写的()  </h2><p><strong>TODO:</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"> 填充文字内容</li>
+<li><input disabled="" type="checkbox"> 链接到图库</li>
+<li><input checked="" disabled="" type="checkbox"> </li>
+<li><input checked="" disabled="" type="checkbox"> </li>
+<li><input checked="" disabled="" type="checkbox"> 新增 portal</li>
+</ul>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%970">计算机专业入门指南!(0)☝🤓</a><ul>
+<li><a href="#%E6%88%91%E8%BF%98%E6%98%AF%E7%9C%8B%E6%88%91%E4%B9%8B%E5%89%8D%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%86%99%E7%9A%84">我还是看我之前的博客写的()</a></li>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a><ul>
+<li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA">为什么要学计算机?</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8">计算机有什么用?</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8">🤗如何入门</a></li>
+<li><a href="#%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E5%85%A5%E9%97%A8">算法竞赛入门</a></li>
 </ul>
 </li>
-<li><a href="#lateupdate%E5%87%BD%E6%95%B0">LateUpdate 函数</a><ul>
-<li><a href="#%E5%9C%A8%E6%89%80%E6%9C%89update%E5%87%BD%E6%95%B0%E6%89%A7%E8%A1%8C%E5%AE%8C%E6%AF%95%E5%90%8E%E8%A2%AB%E8%B0%83%E7%94%A8">在所有 Update 函数执行完毕后被调用</a></li>
 </ul>
 </li>
-<li><a href="#fixedupdate%E5%87%BD%E6%95%B0">FixedUpdate 函数</a><ul>
-<li><a href="#%E5%9C%A8%E5%9B%BA%E5%AE%9A%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E5%86%85%E8%A2%AB%E8%B0%83%E7%94%A8">在固定时间间隔内被调用</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="#%E4%BC%A0%E9%80%81%E9%97%A8">传送门</a><ul>
+<li><a href="#-crash-course-computer-science-%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9F%E6%88%90%E8%AF%BE">-Crash Course Computer Science 计算机速成课</a></li>
+<li><a href="#-%E5%93%88%E4%BD%9B%E5%A4%A7%E5%AD%A6cs50">-哈佛大学CS50</a></li>
+<li><a href="#-csdiy">-CSDIY</a></li>
+<li><a href="#-oi-wiki">-OI Wiki</a></li>
+<li><a href="#3b1b-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E6%9C%AC%E8%B4%A8%E7%B3%BB%E5%88%97">3B1B: 线性代数的本质系列</a></li>
 </ul>
 </li>
 </ul>
-<h1 id="roll-a-ball-项目总结"><a href="#roll-a-ball-项目总结" class="headerlink" title="roll a ball 项目总结"></a>roll a ball 项目总结</h1><h2 id="官方文档快捷搜索"><a href="#官方文档快捷搜索" class="headerlink" title="官方文档快捷搜索"></a>官方文档快捷搜索</h2><p>在代码区，鼠标框选想要搜索的项目<br>然后按下<code>ctrl + &#39;</code></p>
-<p>会打开 unity 的有关想要搜索的项目的官方文档</p>
-<h2 id="Update、LateUpdate-和-FixedUpdate-三种更新函数"><a href="#Update、LateUpdate-和-FixedUpdate-三种更新函数" class="headerlink" title="Update、LateUpdate 和 FixedUpdate 三种更新函数"></a>Update、LateUpdate 和 FixedUpdate 三种更新函数</h2><h3 id="Update-函数"><a href="#Update-函数" class="headerlink" title="Update 函数"></a>Update 函数</h3><h4 id="在每一帧中被调用，调用频率与帧率一致"><a href="#在每一帧中被调用，调用频率与帧率一致" class="headerlink" title="在每一帧中被调用，调用频率与帧率一致"></a>在每一帧中被调用，<strong>调用频率与帧率一致</strong></h4><ul>
-<li>用于处理游戏对象的逻辑更新</li>
-<li>使用 Time.deltaTime 可以确保物体的移动速度在不同帧率下保持一致。</li>
-<li>通常用于处理<strong>用户输入、游戏物体的移动、碰撞检测</strong>等操作</li>
-</ul>
-<h3 id="LateUpdate-函数"><a href="#LateUpdate-函数" class="headerlink" title="LateUpdate 函数"></a>LateUpdate 函数</h3><h4 id="在所有-Update-函数执行完毕后被调用"><a href="#在所有-Update-函数执行完毕后被调用" class="headerlink" title="在所有 Update 函数执行完毕后被调用"></a>在所有 Update 函数执行完毕后被调用</h4><ul>
-<li>通常用于处理<strong>相机的跟随逻辑</strong>。</li>
-</ul>
-<h3 id="FixedUpdate-函数"><a href="#FixedUpdate-函数" class="headerlink" title="FixedUpdate 函数"></a>FixedUpdate 函数</h3><h4 id="在固定时间间隔内被调用"><a href="#在固定时间间隔内被调用" class="headerlink" title="在固定时间间隔内被调用"></a>在固定时间间隔内被调用</h4><ul>
-<li>用于处理<strong>涉及物理计算的逻辑更新</strong></li>
-<li>FixedUpdate 函数的调用频率是固定的，通常为 50-60 次&#x2F;秒</li>
-<li>将涉及物理计算的逻辑放在 FixedUpdate 函数中可以确保物理计算的精确性.</li>
-</ul>
+<h3 id="为什么要学计算机"><a href="#为什么要学计算机" class="headerlink" title="为什么要学计算机?"></a>为什么要学计算机?</h3><p><code>待补充喵</code></p>
+<h3 id="计算机有什么用"><a href="#计算机有什么用" class="headerlink" title="计算机有什么用?"></a>计算机有什么用?</h3><p><code>待补充喵~</code></p>
+<h3 id="🤗如何入门"><a href="#🤗如何入门" class="headerlink" title="🤗如何入门"></a>🤗如何入门</h3><p><code>待补充喵~~</code></p>
+<blockquote>
+<p>干就完了</p>
+</blockquote>
+<h3 id="算法竞赛入门"><a href="#算法竞赛入门" class="headerlink" title="算法竞赛入门"></a>算法竞赛入门</h3><p><code>待补充喵~~~</code></p>
+<h1 id="传送门"><a href="#传送门" class="headerlink" title="传送门"></a>传送门</h1><p>并未未按先后顺序排列,请根据自己的兴趣和学习方式选择适合自己的课程,谢谢喵~  </p>
+<h2 id="Crash-Course-Computer-Science-计算机速成课"><a href="#Crash-Course-Computer-Science-计算机速成课" class="headerlink" title="-Crash Course Computer Science 计算机速成课"></a>-<a href="">Crash Course Computer Science 计算机速成课</a></h2><p>深入浅出的导论课程,不会教编程细则,<br>从底到顶层层抽象,<br>重在传输计算机体系的概念<br><strong>强烈建议观看!</strong></p>
+<h2 id="哈佛大学CS50"><a href="#哈佛大学CS50" class="headerlink" title="-哈佛大学CS50"></a>-<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1XF411y7iJ/?spm_id_from=333.788&vd_source=0d4e2266161b025e79095afd9e8bb042">哈佛大学CS50</a></h2><p>也属于导论课程,知识很多,侧重与计算思维的培养<br><strong>强烈建议观看!</strong></p>
+<h2 id="CSDIY"><a href="#CSDIY" class="headerlink" title="-CSDIY"></a>-<a target="_blank" rel="noopener" href="https://csdiy.wiki/">CSDIY</a></h2><p>极其著名的计算机自学指南, 内含大量国内外优秀公开课<br>学完超越95%的本科生(据说)</p>
+<h2 id="OI-Wiki"><a href="#OI-Wiki" class="headerlink" title="-OI Wiki"></a>-<a target="_blank" rel="noopener" href="https://oi-wiki.org/">OI Wiki</a></h2><p>OIer的学习大纲, 立志于打ACM的可以参考<br>重铸苏打ACM荣光,就靠你们了!</p>
+<h2 id="3B1B-线性代数的本质系列"><a href="#3B1B-线性代数的本质系列" class="headerlink" title="3B1B: 线性代数的本质系列"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ys411k7yQ/?spm_id_from=333.788.recommend_more_video.0&vd_source=0d4e2266161b025e79095afd9e8bb042">3B1B: 线性代数的本质系列</a></h2><p>可视化极佳的线性代数课程!<br>不会教你怎么算,但是会让你从更高层次理解线性代数的本质,<br>即使是高中生也可食用.<br>当然,不要妄想看了这个就不用做题了-_-<br><strong>强烈建议观看!</strong><br>为了方便观看,把每一集的链接放在这里:  </p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ys411k7yQ/?spm_id_from=333.337.search-card.all.click&vd_source=0d4e2266161b025e79095afd9e8bb042">01 - 向量究竟是什么？</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV12s411k7S5/?spm_id_from=333.788.recommend_more_video.-1&vd_source=0d4e2266161b025e79095afd9e8bb042">02 - 线性组合、张成的空间与基</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ns41167b9/?spm_id_from=333.788.recommend_more_video.6&vd_source=0d4e2266161b025e79095afd9e8bb042">03 - 矩阵与线性变换</a>  <em><strong>很重要</strong></em><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ms41167u9/?spm_id_from=333.788.recommend_more_video.0&vd_source=0d4e2266161b025e79095afd9e8bb042">04 - 矩阵乘法与线性变换复合</a>  当然我的意思并不是其他的就不重要了<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Qs41167bP/?spm_id_from=333.788.recommend_more_video.-1&vd_source=0d4e2266161b025e79095afd9e8bb042">05 - 行列式</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ns411r7dE/?spm_id_from=333.788.recommend_more_video.1&vd_source=0d4e2266161b025e79095afd9e8bb042">06 - 逆矩阵、列空间与零空间</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV13s411t7fe/?spm_id_from=333.788.recommend_more_video.10&vd_source=0d4e2266161b025e79095afd9e8bb042">07 - 点积与对偶性</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1js411t7qS/?spm_id_from=333.788.recommend_more_video.-1&vd_source=0d4e2266161b025e79095afd9e8bb042">08(1) - 叉积的标准介绍</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vs411t7w9/?spm_id_from=333.788.recommend_more_video.-1&vd_source=0d4e2266161b025e79095afd9e8bb042">08(2) - 以线性变换的眼光看叉积</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ls411b7r2/?spm_id_from=333.788.recommend_more_video.5&vd_source=0d4e2266161b025e79095afd9e8bb042">09 - 基变换</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ls411b7oL/?spm_id_from=333.788.recommend_more_video.7&vd_source=0d4e2266161b025e79095afd9e8bb042">10 - 特征向量与特征值</a>  </p>
+<p><code>待补充喵~~~</code></p>
 
     </div>
 
@@ -317,20 +319,17 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/archives/" rel="tag"># archives</a>
-          </div>
 
         
 
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2024/02/25/md%E6%95%99%E7%A8%8B/permalink_defaultsundefined" rel="next" title="MarkDown速成">
-      MarkDown速成 <i class="fa fa-chevron-right"></i>
+    <a href="/2024/02/25/md%E6%95%99%E7%A8%8B/permalink_defaultsundefined" rel="prev" title="MarkDown速成">
+      <i class="fa fa-chevron-left"></i> MarkDown速成
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -394,7 +393,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-number">1.</span> <span class="nav-text">目录</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#roll-a-ball-%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93"><span class="nav-number"></span> <span class="nav-text">roll a ball 项目总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E5%BF%AB%E6%8D%B7%E6%90%9C%E7%B4%A2"><span class="nav-number">1.</span> <span class="nav-text">官方文档快捷搜索</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Update%E3%80%81LateUpdate-%E5%92%8C-FixedUpdate-%E4%B8%89%E7%A7%8D%E6%9B%B4%E6%96%B0%E5%87%BD%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">Update、LateUpdate 和 FixedUpdate 三种更新函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Update-%E5%87%BD%E6%95%B0"><span class="nav-number">2.1.</span> <span class="nav-text">Update 函数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E6%AF%8F%E4%B8%80%E5%B8%A7%E4%B8%AD%E8%A2%AB%E8%B0%83%E7%94%A8%EF%BC%8C%E8%B0%83%E7%94%A8%E9%A2%91%E7%8E%87%E4%B8%8E%E5%B8%A7%E7%8E%87%E4%B8%80%E8%87%B4"><span class="nav-number">2.1.1.</span> <span class="nav-text">在每一帧中被调用，调用频率与帧率一致</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#LateUpdate-%E5%87%BD%E6%95%B0"><span class="nav-number">2.2.</span> <span class="nav-text">LateUpdate 函数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E6%89%80%E6%9C%89-Update-%E5%87%BD%E6%95%B0%E6%89%A7%E8%A1%8C%E5%AE%8C%E6%AF%95%E5%90%8E%E8%A2%AB%E8%B0%83%E7%94%A8"><span class="nav-number">2.2.1.</span> <span class="nav-text">在所有 Update 函数执行完毕后被调用</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#FixedUpdate-%E5%87%BD%E6%95%B0"><span class="nav-number">2.3.</span> <span class="nav-text">FixedUpdate 函数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E5%9B%BA%E5%AE%9A%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E5%86%85%E8%A2%AB%E8%B0%83%E7%94%A8"><span class="nav-number">2.3.1.</span> <span class="nav-text">在固定时间间隔内被调用</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-0-%E2%98%9D%F0%9F%A4%93"><span class="nav-number">1.</span> <span class="nav-text">计算机专业入门指南!(0)☝🤓</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2024-7-25%E5%86%99%E8%BF%99%E4%B8%AA%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E5%B7%B2%E7%BB%8F%E6%8A%8Amarkdown%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E5%BF%98%E5%85%89%E4%BA%86-%E6%88%91%E8%BF%98%E6%98%AF%E7%9C%8B%E6%88%91%E4%B9%8B%E5%89%8D%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%86%99%E7%9A%84"><span class="nav-number">1.1.</span> <span class="nav-text">2024.7.25写这个的时候我已经把markdown的基本语法忘光了,我还是看我之前的博客写的()  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-number">1.2.</span> <span class="nav-text">目录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA"><span class="nav-number">1.2.1.</span> <span class="nav-text">为什么要学计算机?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8"><span class="nav-number">1.2.2.</span> <span class="nav-text">计算机有什么用?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%A4%97%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8"><span class="nav-number">1.2.3.</span> <span class="nav-text">🤗如何入门</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E5%85%A5%E9%97%A8"><span class="nav-number">1.2.4.</span> <span class="nav-text">算法竞赛入门</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BC%A0%E9%80%81%E9%97%A8"><span class="nav-number">2.</span> <span class="nav-text">传送门</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Crash-Course-Computer-Science-%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9F%E6%88%90%E8%AF%BE"><span class="nav-number">2.1.</span> <span class="nav-text">-Crash Course Computer Science 计算机速成课</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%93%88%E4%BD%9B%E5%A4%A7%E5%AD%A6CS50"><span class="nav-number">2.2.</span> <span class="nav-text">-哈佛大学CS50</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSDIY"><span class="nav-number">2.3.</span> <span class="nav-text">-CSDIY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OI-Wiki"><span class="nav-number">2.4.</span> <span class="nav-text">-OI Wiki</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3B1B-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E6%9C%AC%E8%B4%A8%E7%B3%BB%E5%88%97"><span class="nav-number">2.5.</span> <span class="nav-text">3B1B: 线性代数的本质系列</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
